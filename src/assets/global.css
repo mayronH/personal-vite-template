@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap');
+
+:root {
+    --text: #f0f1f2;
+    --bg-body: #1e2126;
+    --bg-lighter: #2e333a;
+    --accent: #ffd919;
+    --accent2: #e63ac8;
+
+    --extra-small-size-fluid: clamp(0.5rem, 1vw, 0.75rem);
+    --small-size-fluid: clamp(1rem, 2vw, 1.5rem);
+    --medium-size-fluid: clamp(2rem, 4vw, 3rem);
+    --large-size-fluid: clamp(2.5rem, 6vw, 4.5rem);
+
+    --border-radius: 8px;
+
+    --box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Main Components */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0.75rem;
+
+    background-color: var(--bg-body);
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+
+    background-color: var(--bg-lighter);
+
+    border: 2px solid var(--bg-body);
+}
+
+body {
+    font-family: 'Poppins';
+    color: var(--text);
+
+    background-color: var(--bg-body);
+}

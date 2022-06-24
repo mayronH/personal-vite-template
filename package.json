@@ -1,0 +1,27 @@
+{
+  "name": "vue-invoice",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.0.14",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vite-plugin-eslint": "^1.6.1",
+    "vue-tsc": "^0.34.7"
+  }
+}
