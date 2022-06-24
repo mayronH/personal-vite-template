@@ -21,6 +21,8 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 ```Shell
 npx degit mayronH/personal-vite-template#main my-project
+cd my-project
+pnpm install
 ```
 
 ## Development
