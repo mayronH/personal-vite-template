@@ -4,7 +4,7 @@ My personal template for Vue Projects.
 
 ## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+-   [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## Type Support For `.vue` Imports in TS
 
@@ -14,3 +14,29 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+
+# Usage
+
+## Clone to local
+
+```Shell
+npx degit mayronH/personal-vite-template#main my-project
+```
+
+## Development
+
+Just run and visit http://localhost:3000
+
+```Shell
+pnpm dev
+```
+
+## Build
+
+To build the App, run
+
+```Shell
+pnpm build
+```
+
+And you will see the generated file in dist that ready to be served.
