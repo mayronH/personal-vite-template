@@ -1,9 +1,10 @@
 {
-  "name": "vue-invoice",
+  "name": "vue-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },

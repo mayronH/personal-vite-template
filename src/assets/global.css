@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --text: #f0f1f2;
-    --bg-body: #1e2126;
-    --bg-lighter: #2e333a;
+    --white: #f0f1f2;
+    --bg-dark: #1e2126;
+    --bg-medium: #262a30;
+    --bg-lighter: #363c44;
     --accent: #ffd919;
     --accent2: #e63ac8;
+    --accent3: #50b6ff;
 
     --extra-small-size-fluid: clamp(0.5rem, 1vw, 0.75rem);
     --small-size-fluid: clamp(1rem, 2vw, 1.5rem);
@@ -50,7 +52,7 @@ html {
 body::-webkit-scrollbar {
     width: 0.75rem;
 
-    background-color: var(--bg-body);
+    background-color: var(--bg-medium);
 }
 
 body::-webkit-scrollbar-track {
@@ -62,12 +64,29 @@ body::-webkit-scrollbar-thumb {
 
     background-color: var(--bg-lighter);
 
-    border: 2px solid var(--bg-body);
+    border: 2px solid var(--bg-medium);
 }
 
 body {
     font-family: 'Poppins';
-    color: var(--text);
+    color: var(--white);
 
-    background-color: var(--bg-body);
+    background-color: var(--bg-dark);
+}
+
+/* Disable all animations for people that prefer without it */
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }
