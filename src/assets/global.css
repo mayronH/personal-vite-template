@@ -1,92 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --white: #f0f1f2;
-    --bg-dark: #1e2126;
-    --bg-medium: #262a30;
-    --bg-lighter: #363c44;
-    --accent: #ffd919;
-    --accent2: #e63ac8;
-    --accent3: #50b6ff;
+  --white: #f0f1f2;
+  --bg-dark: #1e2126;
+  --bg-medium: #262a30;
+  --bg-lighter: #363c44;
+  --accent: #ffd919;
+  --accent2: #e63ac8;
+  --accent3: #50b6ff;
 
-    --extra-small-size-fluid: clamp(0.5rem, 1vw, 0.75rem);
-    --small-size-fluid: clamp(1rem, 2vw, 1.5rem);
-    --medium-size-fluid: clamp(2rem, 4vw, 3rem);
-    --large-size-fluid: clamp(2.5rem, 6vw, 4.5rem);
+  --extra-small-size-fluid: clamp(0.5rem, 1vw, 0.75rem);
+  --small-size-fluid: clamp(1rem, 2vw, 1.5rem);
+  --medium-size-fluid: clamp(2rem, 4vw, 3rem);
+  --large-size-fluid: clamp(2.5rem, 6vw, 4.5rem);
 
-    --border-radius: 8px;
+  --border-radius: 8px;
 
-    --box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+  --box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
 }
 
 /* CSS Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 img,
 picture {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* Main Components */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
-    width: 0.75rem;
+  width: 0.75rem;
 
-    background-color: var(--bg-medium);
+  background-color: var(--bg-medium);
 }
 
 body::-webkit-scrollbar-track {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-    border-radius: 5px;
+  border-radius: 5px;
 
-    background-color: var(--bg-lighter);
+  background-color: var(--bg-lighter);
 
-    border: 2px solid var(--bg-medium);
+  border: 2px solid var(--bg-medium);
 }
 
 body {
-    font-family: 'Poppins';
-    color: var(--white);
+  font-family: 'Poppins';
+  color: var(--white);
 
-    background-color: var(--bg-dark);
+  background-color: var(--bg-dark);
 }
 
 /* Disable all animations for people that prefer without it */
 
 @media (prefers-reduced-motion: reduce) {
-    html:focus-within {
-        scroll-behavior: auto;
-    }
+  html:focus-within {
+    scroll-behavior: auto;
+  }
 
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-    }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
