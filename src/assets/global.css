@@ -13,6 +13,7 @@
   --small-size-fluid: clamp(1rem, 2vw, 1.5rem);
   --medium-size-fluid: clamp(2rem, 4vw, 3rem);
   --large-size-fluid: clamp(2.5rem, 6vw, 4.5rem);
+  --extra-large-size-fluid: clamp(8rem, 10vw + 1rem, 10rem);
 
   --border-radius: 8px;
 
