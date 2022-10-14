@@ -5,9 +5,9 @@
   --bg-dark: #1e2126;
   --bg-medium: #262a30;
   --bg-lighter: #363c44;
-  --accent: #ffd919;
-  --accent2: #e63ac8;
-  --accent3: #50b6ff;
+  --accent: #87c7a1;
+  --accent2: #bc83e3;
+  --accent3: #70b9cc;
 
   --extra-small-size-fluid: clamp(0.5rem, 1vw, 0.75rem);
   --small-size-fluid: clamp(1rem, 2vw, 1.5rem);
