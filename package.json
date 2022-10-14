@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "phosphor-vue": "^4.4.0",
     "pinia": "^2.0.22",
     "vue": "^3.2.40",
     "vue-router": "^4.1.5"
