@@ -1,10 +1,10 @@
-# Vue 3 + TypeScript + Vite + Pinia + Vue Router + Eslint + Prettier + AutoPrefixer
+# Vue 3 + TypeScript + Vite + Pinia + Vue Router + Eslint + Prettier + AutoPrefixer + Iconify
 
 My personal template for Vue Projects.
 
-# Usage
+## Usage
 
-## Clone to local
+### Clone to local
 
 ```Shell
 npx degit mayronH/personal-vite-template#main my-project
@@ -12,15 +12,15 @@ cd my-project
 pnpm install
 ```
 
-## Development
+### Development
 
-Just run and visit http://127.0.0.1:5173
+Just run and visit <http://127.0.0.1:5173>
 
 ```Shell
 pnpm dev
 ```
 
-## Build
+### Build
 
 To build the App, run
 
