@@ -7,7 +7,7 @@ My personal template for Vue Projects.
 ### Clone to local
 
 ```Shell
-npx degit mayronH/personal-vite-template#main my-project
+pnpx degit mayronH/personal-vite-template#main my-project
 cd my-project
 pnpm install
 ```
