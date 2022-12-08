@@ -1,8 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Icon } from '@iconify/vue'
+</script>
 <template>
   <main class="content">
     <h1 class="hello-world">
-      Hello World <ph-lightbulb :size="64" weight="light" />
+      Hello World <Icon icon="ph:lightbulb" height="64" />
     </h1>
   </main>
 </template>
