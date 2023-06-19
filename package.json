@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@iconify/vue": "^4.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
     "@typescript-eslint/parser": "^5.59.9",
     "@vitejs/plugin-vue": "^3.1.2",
     "autoprefixer": "^10.4.14",
