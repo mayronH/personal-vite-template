@@ -44,6 +44,33 @@ picture {
   display: block;
 }
 
+/* links that don't have a class */
+a:not([class]) {
+  text-decoration-thickness: max(0.08em, 1px);
+  text-underline-offset: 0.15em;
+}
+
+/* any focusable element */
+:focus-visible {
+  --outline-size: max(2px, 0.15em);
+  --outline-style: dashed;
+
+  outline: var(--outline-width, var(--outline-size)) var(--outline-style, solid)
+  var(--outline-color, currentColor);
+  outline-offset: var(--outline-offset, var(--outline-size));
+}
+
+/* Scroll padding allowance above anchor links */
+:target {
+  scroll-padding-block-start: var(--small-size-fluid);
+}
+
+/* Scroll padding allowance below focused elements 
+  to ensure they are clearly in view */
+:focus {
+  scroll-padding-block-end: 8vh;
+}
+
 /* Main Components */
 
 html {
