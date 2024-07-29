@@ -23,7 +23,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-vue": "^9.27.0",
     "postcss": "^8.4.39",
-    "typescript": "^5.5.3",
+    "typescript": "^5.5.4",
     "vite": "^5.3.4",
     "vite-plugin-eslint": "^1.8.1",
     "vue-tsc": "^2.0.29"
