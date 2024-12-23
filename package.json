@@ -24,7 +24,7 @@
     "eslint-plugin-vue": "^9.32.0",
     "postcss": "^8.4.49",
     "typescript": "^5.7.2",
-    "vite": "^6.0.3",
+    "vite": "^6.0.5",
     "vite-plugin-eslint": "^1.8.1",
     "vue-tsc": "^2.1.10"
   }
